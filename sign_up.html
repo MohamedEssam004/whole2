@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+  <link rel="stylesheet" href="sign_up.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+<div class="register">
+  <div>
+    <img src="ilbook.jpg">
+   </div>
+  <form action="">
+    <h1>Welcome to the Online bookstore </h1>
+    <p class="feldd">Please fill in this form to create an account.</p>
+    <h3> </h3>
+    <div class="inputs">
+      <div class="fields">
+        <input type="text" name="username" placeholder="Username" required>
+        <i class='bx bx-user'></i>
+      </div>
+      <div class="fields">
+        <input type="password" name="password" placeholder="password" required>
+        <i class='bx bxs-lock'></i>
+      </div>
+      <div class="fields">
+        <input type="password" name="confirm_password" placeholder="confirm_password" required>
+        <i class='bx bxs-lock'></i>
+      </div>
+      <div class="fields">
+        <input type="email" name="email" placeholder="Email" required>
+        <i class='bx bxs-envelope' ></i>
+      </div>
+    </div>
+    <h4> Are you :</h4>
+    <label>
+      <input class="check" type="radio" name="role" value="admin"> Admin
+    </label>
+    <label>
+      <input class="check" type="radio" name="role" value="user"> User
+    </label>
+    <button type="submit" onclick="window.location.href='indexx.html'">Sign Up</button>
+    <p class="feld">Already have an account? <a href="index.html">Login</a></p>
+
+  </form>
+</div>
+
+</body>
+</html>
